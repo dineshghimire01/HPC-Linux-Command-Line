@@ -47,4 +47,32 @@ Eg. mv "oldfilename" "newfilename" i.e. mv myfile.txt file.txt
 What it does: If you want to remove a directory altogether, use the rmdir command followed by the path to the directory.
 Example: rmdir “path/to/directory” i.e rmdir /Users/dg663/new now removes that new folder.
 
+11. Remove nested directories or folder: rm -R command
+What it does: When you want to remove an entire directory that might contain other directories or files, then the rm -R command is where you will turn. 
+This command is irreversible, unlike deleting files in the Finder and being able to restore them from the Trash. 
+When this command is executed, all files and directories inside of the path you specify will be deleted immediately.
+Example: rm -R “/path/to/root/directory” i.e. like mkdir /Users/dg663/test created a test directory or folder
+ then this one removes it.  rm -R /Users/dg663/test
+
+Note: Here rmdir removes only empty directory but rm -R removes both empty and non empty
+
+12. Execute commands with superuser privileges: sudo command
+What it does: sudo is a command that allows you to elevate your user privileges while executing the command to administrator privileges. 
+This is required for some commands to run — for instance, removing a file that is owned by another user. 
+When you run this command, you will see a password field appear in Terminal where you will need to type your user account password to finish the command execution.
+
+Your Mac has security baked in at its core, which is why when typing a password, the command line hides the characters typed for security practices. 
+Remember to never type your password into a field that you did not request!
+Example: sudo “command” i.e like sudo open myfile.txt
+Then, asked for password and you won't know if you have typed or not, it just looks empty. 
+But keep on typing the correct password for your user account. 
+If you are using computer from your school and you don't have full administration control, you might have to allow it manually like by using "self service control" software. 
+You can install it by requesting your IT guys or even you might be able to download on your own. 
+
+13. List all actively running computer processes: top
+What it does: With top, you’ll see the stats of your system updated in Terminal’s window, such as the memory, CPU and disk utilization. 
+You’ll also see a running list of the top apps using the CPU, including their state, ports used, memory per app and more, without needing to open the Activity Monitor app on your Mac. 
+**Note that: This command will execute until you close Terminal’s window or press Control + C to return execution back to the CLI.**
+Example: top 
+
 

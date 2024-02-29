@@ -18,3 +18,10 @@ Eg.  ls -l
 What it does: When browsing a directory, you may encounter a file that you wish to open on your Mac. That’s where the open command comes in. 
 Example: open “filename” i.e. open Dinesh     
 and then a real dolder of Dinesh will open up in the new desktop window. 
+
+5. Copy a file to another directory: cp
+What it does: The cp command facilitates copying a file from one location to another or making a copy of the same file with a new name. 
+Example: cp “filename” “newfilename with directory” i.e.  cp  Disease.docx  /Users/dg663/Documents/Disease.docx 
+By doing so, I copied that file named Disease.docx into documents folder.
+
+6. 

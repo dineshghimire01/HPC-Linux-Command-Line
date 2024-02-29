@@ -72,7 +72,7 @@ You can install it by requesting your IT guys or even you might be able to downl
 13. List all actively running computer processes: top
 What it does: With top, you’ll see the stats of your system updated in Terminal’s window, such as the memory, CPU and disk utilization. 
 You’ll also see a running list of the top apps using the CPU, including their state, ports used, memory per app and more, without needing to open the Activity Monitor app on your Mac. 
-**Note that: This command will execute until you close Terminal’s window or press Control + C to return execution back to the CLI.**
+__Note that: This command will execute until you close Terminal’s window or press Control + C to return execution back to the CLI.**
 Example: top 
 
 

@@ -72,7 +72,28 @@ You can install it by requesting your IT guys or even you might be able to downl
 13. List all actively running computer processes: top
 What it does: With top, you’ll see the stats of your system updated in Terminal’s window, such as the memory, CPU and disk utilization. 
 You’ll also see a running list of the top apps using the CPU, including their state, ports used, memory per app and more, without needing to open the Activity Monitor app on your Mac. 
-__Note that: This command will execute until you close Terminal’s window or press Control + C to return execution back to the CLI.**
+**Note that: This command will execute until you close Terminal’s window or press Control + C to return execution back to the CLI.**
 Example: top 
+
+14. Quit sub-screen of perpetuity and return to Terminal: q
+What it does: For commands that run in perpetuity when executed, you can end execution of the process by pressing the q key on your keyboard. 
+Alternatively, you can press Control + C.
+Example: q or Ctrl C
+
+**Perpetuity refers to never ending process like top function above**
+
+15. Clear terminal screen: clear
+What it does: It clear out all commands and returns a clean slate to work from
+Example: clear
+
+16. Copy contents of a folder to a new folder: ditto
+What it does: The ditto command will execute a copy of all of the contents of one folder into another folder you specify. 
+This is great for when you need to start a new project and use an older project as a base or if you just need to copy files in a folder from your computer to an external drive. 
+Add a -V, as in the example below, to get verbose output for each file copied.
+
+Example: ditto -V MyFolder MyNewFolder i.e ditto newfolder Dinesh (here newfolder contain a subfolder which was copied to Dinesh using this command)
+**Note: You can use -V to get verbose output and you can use it without -V too. 
+
+
 
 

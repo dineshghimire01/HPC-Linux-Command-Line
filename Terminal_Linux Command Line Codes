@@ -24,4 +24,27 @@ What it does: The cp command facilitates copying a file from one location to ano
 Example: cp “filename” “newfilename with directory” i.e.  cp  Disease.docx  /Users/dg663/Documents/Disease.docx 
 By doing so, I copied that file named Disease.docx into documents folder.
 
-6. 
+6. Move a file: mv
+What it does: When you don’t want to copy a file, but instead move it, use the same format of the cp command, but instead replace cp with mv.
+Example: mv “filename” “path/to/new/file/location” i.e.  mv Disease.docx /Users/dg663 (moved to dg663 folder)
+
+7. Create a text file: touch
+What it does: The touch command allows you to create any type of file, but it’s blank. 
+After you create the blank file, you can open it in a text editor by typing open [filename].
+Example: touch myfile.txt , also touch myfile.doc or touch myfile.csv
+Then open myfile.txt   to open it. 
+
+8. Create a directory or folder: mkdir
+What it does: The mkdir command will allow you to create a directory (folder) from within the CLI. 
+When you need a place to store new files, just use this command to add a new directory in the current working directory, or specify a full path to the location where you want the new directory to be placed.
+Example: mkdir “path/to/new/directory” i.e. mkdir /Users/dg663/new so here a new folder created inside dg663
+
+9. Rename folder: mv 
+What it does: When you’ve created a folder that has the wrong name, you can easily use the mv command to rename it.
+Eg. mv "oldfilename" "newfilename" i.e. mv myfile.txt file.txt
+
+10. Remove an empty directory: rmdir
+What it does: If you want to remove a directory altogether, use the rmdir command followed by the path to the directory.
+Example: rmdir “path/to/directory” i.e rmdir /Users/dg663/new now removes that new folder.
+
+

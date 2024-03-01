@@ -9,22 +9,22 @@ Terminal_Linux Command Line Codes: Type of command or function, its code, Functi
 - Function of the code: If you want to find out which directory you are in : type pwd
 - eg. /Users/dg663
 
-3. Change Directory : cd
+2. Change Directory : cd
    
 - Function of the code: The cd command will change the directory you’re currently working within Terminal to execute other commands on a different directory.
-  
 - Example: cd “path/to/directory/” like cd Desktop
 
-5. Listing Directory: ls
-Function of the code: Use ls command after navigating into a directory using the cd command to view the contents inside of the current directory. 
-Example: ls and get everthing inside that directory.
-Also, Use the argument -l command with ls to get even more information about each of the files.
-Eg.  ls -l
+3. Listing Directory: ls
 
-6. Open Files: open 
-Function of the code: When browsing a directory, you may encounter a file that you wish to open on your Mac. That’s where the open command comes in. 
-Example: open “filename” i.e. open Dinesh     
-and then a real dolder of Dinesh will open up in the new desktop window. 
+- Function of the code: Use ls command after navigating into a directory using the cd command to view the contents inside of the current directory. 
+- Example: ls and get everthing inside that directory.
+- Also, Use the argument -l command with ls to get even more information about each of the files.
+- Example:  ls -l
+
+4. Open Files: open 
+- Function of the code: When browsing a directory, you may encounter a file that you wish to open on your Mac. That’s where the open command comes in. 
+- Example: open “filename” i.e. open Dinesh     
+- and then a real folder of Dinesh will open up in the new desktop window. 
 
 7. Copy a file to another directory: cp
 Function of the code: The cp command facilitates copying a file from one location to another or making a copy of the same file with a new name. 

@@ -99,8 +99,17 @@ Function of the code: If you are unsure or do not know what some command does, y
 Example: whatis ditto  then the result will be different things that ditto does. Don't worry about "Not a directory" sign. 
 
 18. Manual of the command: man
-Function of the code: If the description is not enough or you want to know more about the command, the good news is that most of the command are shipped with a manual. You can use man command to know more about the command and get a manual of that command. 
+Function of the code: If the description is not enough or you want to know more about the command, the good news is that most of the command are shipped with a manual. 
+You can use man command to know more about the command and get a manual of that command. 
 Example: man ditto . The result consists of description with the manual page including but not limited to Name, synopsis, description and so on.
 
-19. 
+19. Exit Command: exit
+Function of the code: It closes the current session in Terminal. Especially used during remote control. 
+If you are directly using in your computer on site, you can just close the window as well. 
+Example: exit
+The result will be saving session.... [Process completed]
 
+20. Force shutdown apps: killall 
+- Function of the code: If you want to forcefully quit some app, you can use this function. This can be really important sometime. 
+- Example: Killall Terminal
+- The result is that the terminal window will be closed. 

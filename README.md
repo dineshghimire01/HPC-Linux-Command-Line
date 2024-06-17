@@ -177,28 +177,28 @@ or
 
 21.10. **Bonus Git Commands**
 21.10.1 **Check the status of the current branch:
-bash
-git status
+- bash
+- git status
 
 21.10.2 **View changes made to files**:
-bash
-git diff
+- bash
+- git diff
 
 or
-bash
-git diff <file_name>
+- bash
+- git diff <file_name>
 
 21.10.3 **Create a new branch and push it to the remote repository**:
-bash
-git checkout -b <branch_name>
-git push -u origin <branch_name>
+- bash
+- git checkout -b <branch_name>
+- git push -u origin <branch_name>
 
 21.10.4 **Switch to an existing branch**:
-bash
-git checkout <branch_name>
+- bash
+- git checkout <branch_name>
 
 21.10.5 **List all branches**:
-bash
-git branch
+- bash
+- git branch
 
 

@@ -125,3 +125,8 @@ Example: top
 - Function of the code: If you want to forcefully quit some app, you can use this function. This can be really important sometime. 
 - Example: Killall Terminal
 - The result is that the terminal window will be closed. 
+
+21. **Git Clone**: Clone a file or folder 
+- Function of the code: If you want to clone a file instead of downloading a zipfile because cloning can help you to keep track of files and can use git push or pull to update the folder. 
+- Example: git clone (paste ssh or url)
+- The result is that the folder will be downloaded. 

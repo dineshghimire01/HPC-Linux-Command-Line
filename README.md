@@ -4,7 +4,7 @@ Apple MacOS offers native Terminal app that features access to the command-line 
 
 Terminal_Linux Command Line Codes: Type of command, its code, function of the code and examples attached herewith. 
 
-1. **Current Directory**: pwd 
+1. **Current Directory or Present working directory**: pwd 
 - Function of the code: If you want to find out which directory you are in.
 - Example. pwd
 - Result: in my case "/Users/dg663"

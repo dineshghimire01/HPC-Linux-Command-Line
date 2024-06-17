@@ -133,48 +133,47 @@ Example: top
 - The result is that the folder will be downloaded.
 
 21.2. **Cloning the Repository**: To clone the repository, use the following command:
-bash
-git clone git@github.com:dineshghimire01/REU-Summer-2024-Cornell.git
+- bash
+- git clone git@github.com:dineshghimire01/REU-Summer-2024-Cornell.git
 
-21.3. **Keeping the Cloned Repository in Sync**
-To keep the cloned repository in sync with the original repository, follow these steps:
-Fetch the latest changes from the remote repository:
-bash
-git fetch origin
+21.3. **Keeping the Cloned Repository in Sync** To keep the cloned repository in sync with the original repository, follow these steps:
+- Fetch the latest changes from the remote repository:
+- bash
+- git fetch origin
 
 21.4. **Switch to the main branch**:
-bash
-git checkout main
+- bash
+- git checkout main
 
 21.5. **Pull the latest changes from the remote repository**:
-bash
-git pull
+- bash
+- git pull
 
 21.6. **Working on the main Branch**
-To work on the main branch and commit your changes, follow these steps:
-Check the modified files:
-bash
-git status
+- To work on the main branch and commit your changes, follow these steps:
+- Check the modified files:
+- bash
+- git status
 
 21.7. **Stage the modified files**:
-bash
-git add <file_name>
+- bash
+- git add <file_name>
 
 Or, to stage all modified files (not recommended):
-bash
-git add .
+- bash
+- git add .
 
 21.8. **Commit the changes with a descriptive message**:
-bash
-git commit -m "Your commit message here"
+- bash
+- git commit -m "Your commit message here"
 
 21.9. **Push the changes to the remote repository**:
-bash
-git push
+- bash
+- git push
 
 or
-bash
-git push origin
+- bash
+- git push origin
 
 21.10. **Bonus Git Commands**
 21.10.1 **Check the status of the current branch:

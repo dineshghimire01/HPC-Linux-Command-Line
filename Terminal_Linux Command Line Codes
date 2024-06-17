@@ -1,9 +1,9 @@
 Terminal_Linux Command Line Codes: Type of command or function, its code, Function of the code and examples attached herewith. 
 
-1. Current Directory: pwd
+1. Current Directory or Present working directory: pwd
 Function of the code: If you want to find out which directory you are in : type pwd
 eg. /Users/dg663
-
+ 
 2. Change Directory : cd
 Function of the code: The cd command will change the directory you’re currently working within Terminal to execute other commands on a different directory.
 Example: cd “path/to/directory/” like cd Desktop

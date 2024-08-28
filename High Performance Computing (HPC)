@@ -1,0 +1,21 @@
+Create account at https://biohpc.cornell.edu//login_bio.aspx
+
+Check if your user password works on biohpc : https://biohpc.cornell.edu//login_bio.aspx 
+
+Then you can access with your user in terminal via ssh e.g. ssh dg663@cbsurobbins.biohpc.cornell.edu
+
+So now you will need to use slurm to submit jobs. There are examples on this directory: /local/workdir/slurm_starter_pack
+
+Look at the README file on that directory it has links to more information on the biohpc site. You can pretty much follow the example and run a job. 
+The main idea is that you can split jobs into different smaller tasks and have the cluster run them.
+
+https://biohpc.cornell.edu/lab/cbsubscb_SLURM.htm#general contains details:
+* General Information:  
+The cluster consists of 16 compute nodes. All these nodes are part of the BioHPC Cloud, with all the software and tools available in the Cloud also available on the cluster nodes
+
+SSH is a Secure Shell Protocol to send commands to a computer over an unsecured network.
+
+cat file name to view file through ssh
+end to exit
+mkdir works
+

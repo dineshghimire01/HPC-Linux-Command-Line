@@ -23,9 +23,12 @@ SSH is a Secure Shell Protocol to send commands to a computer over an unsecured 
 5. **Submit** an Interactive Job: So now you will need to use slurm to submit jobs. There are examples on this directory: /local/workdir/slurm_starter_pack
    
 4.1. Submitting jobs using 'sbatch' command:  
-sbatch -N 1 --mem=8000 -p regular /programs/bin/slurm_screen.sh # here node N1, memory 8000 MB on regular partition. 
+
+- sbatch -N 1 --mem=8000 -p regular /programs/bin/slurm_screen.sh # here node N1, memory 8000 MB on regular partition.
+  
 OR
-Submit: sbatch --mem=1000 -p regular --wrap="echo 'Hello SLURM\!'"
+
+- Submit: sbatch --mem=1000 -p regular --wrap="echo 'Hello SLURM\!'"
 
 4.2. Check job status: squeue -u $USER like squeue -u dg663 and output will look like 
         JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -51,7 +54,7 @@ Now you are in R mode and can execute your R commands interactively.
 To reattach later, use the screen -r command as shown above.
 
 4.10. Exit and clean up: Exit using q() or type "exit".
-NOW run in R
+
 
 
 

@@ -1,4 +1,4 @@
-1. Create #account# at https://biohpc.cornell.edu//login_bio.aspx
+1. **Create account** at https://biohpc.cornell.edu//login_bio.aspx
 
 2. Check if your user password works on biohpc : https://biohpc.cornell.edu//login_bio.aspx 
 
@@ -27,7 +27,7 @@ There is a screen on :
 
 4.7. Attach to the screen session: screen -r 99274..cbsubscb13
 
-4.8. Start R in the Screen session: Once inside the screen session, start R by typing: 
+4.8. **Start R** in the Screen session: Once inside the screen session, start R by typing: 
         R
 Now you are in R mode and can execute your R commands interactively.
 

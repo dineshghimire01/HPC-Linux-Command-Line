@@ -1,11 +1,27 @@
+
+**General Information**:  
+The cluster consists of 16 compute nodes. All these nodes are part of the BioHPC Cloud, with all the software and tools available in the Cloud also available on the cluster nodes
+
+SSH is a Secure Shell Protocol to send commands to a computer over an unsecured network.
+
+
+https://biohpc.cornell.edu/lab/cbsubscb_SLURM.htm#general contains details:
+Steps to follow:
+![image](https://github.com/user-attachments/assets/f423b2d0-a7eb-42a3-876c-20abf4863a6e)
+
+
 1. **Create account** at https://biohpc.cornell.edu//login_bio.aspx
 
 2. Check if your user password works on biohpc : https://biohpc.cornell.edu//login_bio.aspx 
 
-3. Log in to the BioHPC Cluster: you can access with your user in terminal via ssh e.g. ssh dg663@cbsurobbins.biohpc.cornell.edu
+3. Log in to the **BioHPC** Cluster: you can access with your user in terminal via ssh e.g. ssh dg663@cbsurobbins.biohpc.cornell.edu
+   -Here you can view the files using ls command and open README file for script using cat "README".
+   -Look at the README file on that directory it has links to more information on the biohpc site. You can pretty much follow the example and run a job. 
+-The main idea is that you can split jobs into different smaller tasks and have the cluster run them.
+-Other terminal commands like cd or exit or mkdir works here
 
-4. Submit an Interactive Job: So now you will need to use slurm to submit jobs. There are examples on this directory: /local/workdir/slurm_starter_pack
-
+5. **Submit** an Interactive Job: So now you will need to use slurm to submit jobs. There are examples on this directory: /local/workdir/slurm_starter_pack
+   
 4.1. Submitting jobs using 'sbatch' command:  
 sbatch -N 1 --mem=8000 -p regular /programs/bin/slurm_screen.sh # here node N1, memory 8000 MB on regular partition. 
 OR
@@ -40,27 +56,6 @@ NOW run in R
 
 
 
-
-
-Look at the README file on that directory it has links to more information on the biohpc site. You can pretty much follow the example and run a job. 
-The main idea is that you can split jobs into different smaller tasks and have the cluster run them.
-
-https://biohpc.cornell.edu/lab/cbsubscb_SLURM.htm#general contains details:
-Steps to follow:
-1. Log in to the BioHPC Cluster: ssh dg663@cbsurobbins.biohpc.cornell.edu (NEED YOUR PASSWORD TO LOGIN)
-
-2. 
-
-
-
-* General Information:  
-The cluster consists of 16 compute nodes. All these nodes are part of the BioHPC Cloud, with all the software and tools available in the Cloud also available on the cluster nodes
-
-SSH is a Secure Shell Protocol to send commands to a computer over an unsecured network.
-
-cat file name to view file through ssh
-end to exit
-mkdir works
 
 
 

@@ -1,4 +1,4 @@
-# Terminal-Basic-Command-Line
+# Basic-Command-Line
 - A line where you type commands
 - Other terms:
    - CLI (Command Line Interface)

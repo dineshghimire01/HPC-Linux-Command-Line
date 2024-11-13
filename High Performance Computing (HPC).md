@@ -57,7 +57,15 @@ To reattach later, use the screen -r command as shown above.
 
 
 
-
+# Move files from local computer to server using scp command (Simplicity, security and pre-installed availability)
+- get ip address of your server using: hostname -I
+  - eg. I got something like this 128.84.180.45 172.17.0.1
+  - from these 16 digits, only 10 digits are IP address so upto .45
+- copy directory where your local file is. COPY using **pwd**
+- copy dierctory where you wnat to store files. Usually use mkdir and create new folder in the server and then use **pwd** to get the currecnt directory. COPY that.
+- Finally use:
+- scp from directory username@ipaddress to directory
+- then the file is moved. If need to move multiple files, do it repeatidly or use separate command to move whole folder.
 
 
 

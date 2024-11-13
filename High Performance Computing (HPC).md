@@ -65,6 +65,7 @@ To reattach later, use the screen -r command as shown above.
 - copy dierctory where you wnat to store files. Usually use mkdir and create new folder in the server and then use **pwd** to get the currecnt directory. COPY that.
 - Finally use:
 - scp from directory username@ipaddress to directory
+- eg,. what i used: scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90 dg663@128.84.180.45 /home/dg663/Desktop/dinesh_linux_project
 - then the file is moved. If need to move multiple files, do it repeatidly or use separate command to move whole folder.
 
 

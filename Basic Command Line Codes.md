@@ -206,3 +206,9 @@ or
 - git branch
 
 
+22. Few more:
+ - **Search_term** : To check if the file is present in the directory:
+    - if you are already in the directory: grep -r
+    - if you are not: grep -r "search_term" /path/to/directory
+    - Here, grep means Global Regular Expression Print which is used to search for specific patterns within files by using regular experessions i.e. this means globally search for a regular expression and print
+    -  and r means recursive : option tells grep to search through all files in a specified directory and its subdirectories

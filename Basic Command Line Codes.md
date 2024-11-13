@@ -18,6 +18,8 @@
 
 
 # Notes on basic command line for Terminal. 
+** First never run a command which you don't understand ** For eg. sudo rm -rf / will remove everything (though many idiots on internet provoke this as a fun.)
+
 Apple MacOS offers native Terminal app that features access to the command-line interface. Many Mac terminal commands are similar to Linux commands. 
 
 Terminal_Linux Command Line Codes: Type of command, its code, function of the code and examples attached herewith. 

@@ -1,5 +1,23 @@
 # Terminal-Basic-Command-Line
-Notes on basic command line for Terminal. 
+- A line where you type commands
+- Other terms:
+   - CLI (Command Line Interface)
+   - Console/terminal
+   - Shell
+- Advantages: Simple(nearly always work even if computer breaks other way), fast and efficient if you know the commands, easy to program (in comparison to GUI)
+- Disadvantages: Have to memorize command.
+- Common elements of the console prompt statement
+   - shows username (who is using this)
+   - host name (what computer you are on)
+   - working directory (where on the computer are we)
+   - Command prompt where we type to give input starts with $ or > .
+   - Command prompt looks like this:
+     
+      [dg663@cbsurobbins Desktop]$ 
+- Very case sensitive
+
+
+# Notes on basic command line for Terminal. 
 Apple MacOS offers native Terminal app that features access to the command-line interface. Many Mac terminal commands are similar to Linux commands. 
 
 Terminal_Linux Command Line Codes: Type of command, its code, function of the code and examples attached herewith. 

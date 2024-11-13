@@ -40,6 +40,8 @@ Terminal_Linux Command Line Codes: Type of command, its code, function of the co
 - Example: ls and get everthing inside that directory.
 - Also, Use the argument -l command with ls to get even more information about each of the files.
 - Example:  ls -l
+- Also, to list by specific sorting: ls -tor
+- ls -tor means ls command or list and sort files by modification time(t), displays output (o) in long format and reverses the files first (r). So, ls -tor will list files in reverse order of modification time, in a detailed format without the group information.
 
 4. **Open Files**: open 
 - Function of the code: When browsing a directory, you may encounter a file that you wish to open on your Mac. That’s where the open command comes in. 
@@ -212,3 +214,5 @@ or
     - if you are not: grep -r "search_term" /path/to/directory
     - Here, grep means Global Regular Expression Print which is used to search for specific patterns within files by using regular experessions i.e. this means globally search for a regular expression and print
     -  and r means recursive : option tells grep to search through all files in a specified directory and its subdirectories
+  
+

@@ -11,7 +11,8 @@ SSH is a Secure Shell Protocol to send commands to a computer over an unsecured 
 
 2. Check if your user password works on biohpc : https://biohpc.cornell.edu//login_bio.aspx 
 
-3. Log in to the **BioHPC** Cluster: you can access with your user in terminal via ssh e.g. ssh dg663@cbsurobbins.biohpc.cornell.edu
+3. Log in to the **BioHPC** Cluster: you can access with your user in terminal via ssh
+    e.g. ssh dg663@cbsurobbins.biohpc.cornell.edu
 
    - Here you can view the files using ls command and open README file for script using cat "README".
    

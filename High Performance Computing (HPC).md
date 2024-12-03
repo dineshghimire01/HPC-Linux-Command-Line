@@ -66,10 +66,14 @@ To reattach later, use the screen -r command as shown above.
 - copy directory where your local file is. COPY using **pwd**
 - copy dierctory where you wnat to store files. Usually use mkdir and create new folder in the server and then use **pwd** to get the currecnt directory. COPY that.
 - Finally use:
-- scp from directory username@ipaddress to directory
-- eg,. what i used: scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90 dg663@128.84.180.45 /home/dg663/Desktop/dinesh_linux_project
-- then the file is moved. If need to move multiple files, do it repeatidly or use separate command to move whole folder.
-
-
-
+- scp from directory username@ipaddress to directory ---- USE THIS IN LOCAL MACHINE OR LOCAL TERMINAL NOT REMOTE SERVER
+- eg,. what i used: (can directly drag file after scp to copy file into server below)
+- scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90/NMndvi_normal.dat dg663@cbsurobbins.biohpc.cornell.edu:Desktop/dinesh_linux_project
+- scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90 dg663@128.84.180.45 /home/dg663/Desktop/dinesh_linux_project
+- to copy a whole folder: scp -r /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90/Practice/Test_data_UGA dg663@cbsurobbins.biohpc.cornell.edu:Desktop/dinesh_linux_project
+  - ( r is recursive)
+- then the file/folder is moved.
+- TO AVOID TYPING PASSWORDS, is used to copy your SSH public key from your local machine to the remote server (cbsurobbins.biohpc.cornell.edu) under the user account dg663. This sets up passwordless SSH login, allowing you to securely access the remote server without entering your password every time.
+  - ssh-copy-id dg663@cbsurobbins.biohpc.cornell.edu
+- TO SPECIFY THREADS NUMBER i.e. increase parallel computing, bigger data, more threads. eg. OMP_NUM_THREADS=4 
 

@@ -75,5 +75,6 @@ To reattach later, use the screen -r command as shown above.
 - then the file/folder is moved.
 - TO AVOID TYPING PASSWORDS, is used to copy your SSH public key from your local machine to the remote server (cbsurobbins.biohpc.cornell.edu) under the user account dg663. This sets up passwordless SSH login, allowing you to securely access the remote server without entering your password every time.
   - ssh-copy-id dg663@cbsurobbins.biohpc.cornell.edu
-- TO SPECIFY THREADS NUMBER i.e. increase parallel computing, bigger data, more threads. eg. OMP_NUM_THREADS=4 
+- TO SPECIFY THREADS NUMBER i.e. increase parallel computing, bigger data, more threads. eg. OMP_NUM_THREADS=4
+- ../blupf90+  or ./blupf90+  : to run blupf90+ where its directory is compared to my current directory. two full stops means two steps back on directory.
 

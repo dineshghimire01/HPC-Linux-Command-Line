@@ -43,11 +43,12 @@ Terminal_Linux Command Line Codes: Type of command, its code, function of the co
 - Also, to list by specific sorting: ls -tor
 - ls -tor means ls command or list and sort files by modification time(t), displays output (o) in long format and reverses the files first (r). So, ls -tor will list files in reverse order of modification time, in a detailed format without the group information.
 
-4. **Open Files**: open 
+4. **Open Files**: open or cat
 - Function of the code: When browsing a directory, you may encounter a file that you wish to open on your Mac. That’s where the open command comes in. 
-- Example: open “filename”
+- Example: open “filename” or cat filename
 - i.e. like open Dinesh     
 - Then a folder named Dinesh will open up in the new desktop window. 
+ **Edit file**: 
 
 5. **Copy a file to another directory**: cp
 - Function of the code: The cp command facilitates copying a file from one location to another or making a copy of the same file with a new name. 

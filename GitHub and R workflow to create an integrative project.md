@@ -1,0 +1,36 @@
+- STEP 1: Create a GitHub Repository (Online First)
+  - Go to: https://github.com/new
+  - Fill it out like this:
+  - Repository name: FFAR-Alfalfa-NMSU
+  - Description: NDVI and yield processing for NMSU field trials
+  - ✅ Check: “Add a README file”
+  - Optional: Add .gitignore for R and choose a license (e.g., MIT)
+  - Click Create repository
+  - This gives you a remote GitHub repo to work from.
+- STEP 2: Clone the Repo and Create R Project (Locally)
+  - In terminal type this: git clone https://github.com/<your-username>/FFAR-Alfalfa-NMSU.git
+  - Need username and password.
+  - For password use personal access token (not your real password) generated from git (its a separate step, yet simple).
+  - Generate one at: https://github.com/settings/tokens
+  - Choose "Fine-grained token", valid for 1 year, with repo access
+  - OR alternatively use SSH method (i didn't use). Token worked.
+- Step 3: Create Folder Structure
+  - Inside the cloned repo, run this in terminal:
+    - cd FFAR-Alfalfa-NMSU
+    - mkdir -p data/NDVI/NMSU
+    - mkdir meta_data
+    - mkdir -p scripts/processing
+  - Need to put some files in these folders and then git add, commit and push to be visible in github repository.
+  - Step to add, commit and push.
+      - git add .
+      - git commit -m "message"
+      - git push origin main
+  - Step 4: Add Files to Project
+      - you can either drop files into the respective folders and then do add, commit, push.
+      - OR, use command line in terminal (add, copy, move...)
+- Step 5: Finally link up with R studio
+    - In RStudio: File → New Project → Existing Directory → Browse to the folder of FFAR-Alfalfa-NMSU
+    - Save your R scripts in scripts/processing/
+    - Example starter code:
+      - library(dplyr)
+      - ndvi <- read.csv("data/NDVI/NMSU/NMSU2023_drone_imagery.csv")

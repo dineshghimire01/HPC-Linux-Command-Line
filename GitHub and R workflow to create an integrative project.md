@@ -34,3 +34,9 @@
     - Example starter code:
       - library(dplyr)
       - ndvi <- read.csv("data/NDVI/NMSU/NMSU2023_drone_imagery.csv")
+     
+- Finally that my GitHub repo, folder structure and R Studio project are set up:
+  - ✅ Work locally in R
+  - 🔁 Connect that to Git (version control)
+  - ☁️ Push updates to GitHub
+  - Let collaborators know if they want to use it. Just share among collaborators using their id's.

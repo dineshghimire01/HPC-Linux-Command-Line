@@ -69,7 +69,7 @@ To reattach later, use the screen -r command as shown above.
 - scp from directory username@ipaddress to directory ---- USE THIS IN LOCAL MACHINE OR LOCAL TERMINAL NOT REMOTE SERVER
 - eg,. what i used: (can directly drag file after scp to copy file into server below)
 - scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90/NMndvi_normal.dat dg663@cbsurobbins.biohpc.cornell.edu:Desktop/dinesh_linux_project
-- scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90 dg663@128.84.180.45 /home/dg663/Desktop/dinesh_linux_project
+- scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90 dg663@128.84.180.45:/home/dg663/Desktop/dinesh_linux_project
 - to copy a whole folder: scp -r /Users/dg663/Desktop/Dinesh/Robbins_Lab/BLUPf90/Practice/Test_data_UGA dg663@cbsurobbins.biohpc.cornell.edu:Desktop/dinesh_linux_project
   - ( r is recursive)
 - then the file/folder is moved.
@@ -77,4 +77,6 @@ To reattach later, use the screen -r command as shown above.
   - ssh-copy-id dg663@cbsurobbins.biohpc.cornell.edu
 - TO SPECIFY THREADS NUMBER i.e. increase parallel computing, bigger data, more threads. eg. OMP_NUM_THREADS=4
 - ../blupf90+  or ./blupf90+  : to run blupf90+ where its directory is compared to my current directory. two full stops means two steps back on directory.
+- eg. with transferring genotyping file: scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/FFAR/NMSU/Analysis/NMSU\ 2022/Genotype\ files/alfalfa_sample80.vcf dg663@128.84.180.45:/home/dg663/Desktop/Dinesh_folder/Genotyping_22_Alfalfa_NMSU/
+
 

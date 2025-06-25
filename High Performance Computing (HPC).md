@@ -77,6 +77,8 @@ To reattach later, use the screen -r command as shown above.
   - ssh-copy-id dg663@cbsurobbins.biohpc.cornell.edu
 - TO SPECIFY THREADS NUMBER i.e. increase parallel computing, bigger data, more threads. eg. OMP_NUM_THREADS=4
 - ../blupf90+  or ./blupf90+  : to run blupf90+ where its directory is compared to my current directory. two full stops means two steps back on directory.
-- eg. with transferring genotyping file: scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/FFAR/NMSU/Analysis/NMSU\ 2022/Genotype\ files/alfalfa_sample80.vcf dg663@128.84.180.45:/home/dg663/Desktop/Dinesh_folder/Genotyping_22_Alfalfa_NMSU/
+- eg. with transferring genotyping file:
+   - scp /Users/dg663/Desktop/Dinesh/Robbins_Lab/FFAR/NMSU/Analysis/NMSU\ 2022/Genotype\ files/alfalfa_sample80.vcf dg663@128.84.180.45:/home/dg663/Desktop/Dinesh_folder/Genotyping_22_Alfalfa_NMSU/
+   - scp /Users/dg663/FFAR-Alfalfa-NMSU/2022/genotype_data/alfalfa_vcf_gt_dosage_info_merged_sample80.csv dg663@128.84.180.45:/home/dg663/Desktop/Dinesh_folder/Genotyping_22_Alfalfa_NMSU/
 
 

@@ -9,6 +9,7 @@
   - This gives you a remote GitHub repo to work from.
 - STEP 2: Clone the Repo and Create R Project (Locally)
   - In terminal type this: git clone https://github.com/<your-username>/FFAR-Alfalfa-NMSU.git
+  - But for private repo, need to specify: git clone git@github.com:dineshghimire01/BASF_FFAR_RobbinsLab.git
   - Need username and password.
   - For password use personal access token (not your real password) generated from git (its a separate step, yet simple).
   - Generate one at: https://github.com/settings/tokens
